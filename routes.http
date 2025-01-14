@@ -1,0 +1,26 @@
+POST http://localhost:3000/video
+content-Type:application/json
+
+{
+    "title":"pinguim",
+    "description":"pinguim feliz feliz",
+    "duration":"240"
+    
+}
+
+###
+GET http://localhost:3000/video
+
+###
+put http://localhost:3000/video/cec0be7f-7f40-4354-ad71-21d6acc52f92
+content-Type:application/json
+
+{
+    "title":"node",
+    "description":"gatinho lindo",
+    "duration":"60"
+    
+}
+###c9-18ff-4213-8d6d-4c925d649241
+
+DELETE  http://localhost:3000/video/3dfc48
